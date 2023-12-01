@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-text {
+  text-align: center;
+  text-transform: uppercase;
+  color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-main {
+  font-size: 25pt;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-text h2 {
+  font-size: 20pt;
+  /* position: absolute;
+  top: 50%;
+  left: 43%; */
+}
+
+span {
+  background-color: #242424;
+  color: #fff;
+  padding: 25px 15px;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  /* text-align: center; */
+}
+.bg-image {
+  opacity: 0.8;
+  position: relative;
+}
+
+#image1 {
+  background-image: url("../images/image1.jpg");
+  height: 100vh;
+}
+
+#image2 {
+  background-image: url("../images/image2.jpg");
+  height: 400px;
+}
+
+#image3 {
+  background-image: url("../images/image3.jpg");
+  height: 400px;
+}
+
+#image4 {
+  background-image: url("../images/image4.jpg");
+  height: 100vh;
+}
+.bg-image {
+  background-attachment: fixed;
+  position: relative;
+}
+
+.content-text {
+  text-align: center;
+  padding: 60px 100px;
+}
+
+.content-text h3 {
+  font-size: 18pt;
+  margin-bottom: 25px;
+}
+
+.light {
+  background-color: rgb(209, 209, 209);
+  color: #242424;
+}
+
+.dark {
+  background-color: #242424;
+  color: rgb(209, 209, 209);
+}
+
+.text-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 2rem;
+}
+
+@media (max-width: 568px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .bg-image {
+    background-attachment: fixed;
+  }
+
+  span {
+    left: 20%;
+    /* text-align: center; */
+    font-size: 20pt;
+  }
+
+  .bg-text h2 {
+    left: 35%;
+  }
+
+  .text-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 375px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .bg-image {
+    background-attachment: fixed;
+  }
+
+  span {
+    left: 13%;
+    /* text-align: center; */
+    font-size: 18pt;
+  }
+
+  .bg-text h2 {
+    left: 22%;
+  }
+
+  .content-text {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

@@ -51,22 +51,22 @@ span {
 }
 
 #image1 {
-  background-image: url("../images/image1.jpg");
+  background-image: URL("image1.jpg");
   height: 100vh;
 }
 
 #image2 {
-  background-image: url("../images/image2.jpg");
+  background-image: url("image2.jpg");
   height: 400px;
 }
 
 #image3 {
-  background-image: url("../images/image3.jpg");
+  background-image: url("image3.jpg");
   height: 400px;
 }
 
 #image4 {
-  background-image: url("../images/image4.jpg");
+  background-image: url("image4.jpg");
   height: 100vh;
 }
 .bg-image {
